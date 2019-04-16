@@ -37,6 +37,7 @@ Eureka-Server регистрирует:
 Producer-RabbitMQ предназначен для передачи сообщения с запросом.
 
 Пример запроса:
+
 http://localhost:9758/send?msg=http://localhost:2020/student-api/School/SchoolNumber1
 http://localhost:9758/send?msg=http://localhost:2020/student-api/School/SchoolNumber2
 
