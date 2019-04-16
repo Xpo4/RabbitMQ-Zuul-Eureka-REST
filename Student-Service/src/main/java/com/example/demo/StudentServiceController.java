@@ -23,7 +23,7 @@ public class StudentServiceController {
         List<Student> lst = new ArrayList<Student>();
         Student std = new Student("Саша", "Каморов");
         lst.add(std);
-        std = new Student("Игорь", "Смирнов ");
+        std = new Student("Игорь", "Смирнов");
         lst.add(std);
  
         schooDB.put("SchoolNumber1", lst);
