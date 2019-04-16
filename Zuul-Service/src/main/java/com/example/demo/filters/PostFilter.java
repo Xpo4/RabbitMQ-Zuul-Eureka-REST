@@ -66,7 +66,7 @@ public class PostFilter extends ZuulFilter {
 			   in.close();
 			  
 			   ArrayList<Object> list = new ArrayList<Object>();
-			   list.add(asJsonString("Привет из PostFilter"));
+			   list.add(asJsonString("PostFilter"));
 			   list.add(responseFtomHttp);
 			   list.add(responseData);
 			   contex.setResponseBody(list.toString());
