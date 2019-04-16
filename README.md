@@ -22,9 +22,9 @@
 Ссылка на запросы для Postman (https://www.getpostman.com/collections/1553e60663d14b3554d1)
 
 # Student-Service
-## Student-Service предназначен для просмотра учеников по номеру школы.
+Student-Service предназначен для просмотра учеников по номеру школы.
 
 # Eureka-Server
-## Eureka-Server регистрирует:
+Eureka-Server регистрирует:
 * Demo-Service;
 * Student-Service.
