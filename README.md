@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/49644368/56210321-45750500-605e-11e9-9008-9c3d2ef4a96e.png)
 
-## Demo-Service предназначен для:
+Demo-Service предназначен для:
 * создания школ;
 * просмотра всех созданных школ;
 * поиска школы по ID;
