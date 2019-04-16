@@ -21,7 +21,7 @@ public class StudentServiceController {
         schooDB = new HashMap<String, List<Student>>();
  
         List<Student> lst = new ArrayList<Student>();
-        Student std = new Student("Саша", "Коморов");
+        Student std = new Student("Саша", "Каморов");
         lst.add(std);
         std = new Student("Игорь", "Смирнов");
         lst.add(std);
@@ -31,7 +31,7 @@ public class StudentServiceController {
         lst = new ArrayList<Student>();
         std = new Student("Виктор", "Сидоров");
         lst.add(std);
-        std = new Student("Миша", "Собалев");
+        std = new Student("Миша", "Соболев");
         lst.add(std);
  
         schooDB.put("SchoolNumber2", lst);
