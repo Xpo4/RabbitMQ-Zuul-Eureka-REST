@@ -28,3 +28,13 @@ Student-Service предназначен для просмотра ученик�
 Eureka-Server регистрирует:
 * Demo-Service;
 * Student-Service.
+
+# Zuul-Service
+* PreFilter - выводит в лог "PreFilter".
+* PostFilter - добавляет к телу ответа "PostFilter" + "http://localhost:8090/School/SchoolNumber1".
+
+# Producer-RabbitMQ
+Producer-RabbitMQ предназначен для передачи сообщения с запросом.
+
+# Consumer-RabbitMQ
+Consumer-RabbitMQ предназначен для получения сообщения с запросом от Producer-RabbitMQ и вывода запроса в консоль. 
